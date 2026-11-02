@@ -35,7 +35,7 @@ else
             if LC_ALL=C grep -qi 'Quota exceeded' "$demo_archive.part"; then
                 printf '%s\n' 'Google Drive download quota exceeded. Try later or place an existing R5.zip in data/raw/.' >&2
             else
-                printf '%s\n' 'Download is not a valid ZIP. Download R5.zip manually using the link in nis/results.md.' >&2
+                printf '%s\n' 'Download is not a valid ZIP. Download R5.zip manually using the link in docs/demo.md.' >&2
             fi
             exit 1
         fi
